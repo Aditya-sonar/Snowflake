@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw
+    database: DB_SF_TEST  -- Change this to your Snowflake Trial DB name
+    schema: STAGING    -- Change this to your schema name
+    tables:
+      - name: customers
